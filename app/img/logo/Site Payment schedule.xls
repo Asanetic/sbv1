@@ -1,0 +1,280 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><meta http-equiv="content-type" content="application/vnd.ms-excel; charset=UTF-8"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>Sheet0</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table><tr><td><b>Site name</b></td><td><b>Date created</b></td><td><b>Disbursment remark</b></td><td><b>Week Number</b></td><td><b>Receipients</b></td><td><b>Total Amount</b></td><td><b>Amount Sent</b></td><td><b>Pending Amount</b></td><td><b>Successful Receipients</b></td><td><b>Pending Receivers</b></td></tr><tr><td><span title="P7P3CF8">RIVERVIEW RESIDENCE FOR MO YUSUF</span></td><td><span title="2026-08-29 16:31:35">2026-08-29 16:31:35</span></td><td><span>Endweek (56) Pay</span></td><td><span title="56">56</span></td><td><span title="15">15</span></td><td><span title="50800">50800</span></td><td><span title="0">0</span></td><td><span title="50800">50800</span></td><td><span title="0">0</span></td><td><span title="15">15</span></td></tr><tr><td>
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left h6"><b>Endweek (56) Pay Payment beneficiaries</b></div>
+                      <div class="col-md-12 border-bottom border_set" style="height: 1px"></div>
+                    </div>
+                    <!-- End Title ribbon-->
+                                        <!-- Start Table -->
+                    <div class="table-responsive data-tables">
+                    <table class="table table-hover text-left">
+                      <thead class="text-uppercase">
+                        <tr><th>receiver name</th><th>receiver mobile</th><th>amount to send</th><th>status</th><th>transaction ref</th></tr>                      </thead>
+                        <tbody>                      
+                          <tr><td>Moureen Kariuki - 0115870331</td><td>0115870331</td><td>3600</td><td>Paid</td><td>UHTFQ4K4CR</td></tr><tr><td>Dennis Kimtai - 0711911616</td><td>0711911616</td><td>3000</td><td>Paid</td><td>UHTKH4HX5S</td></tr><tr><td>Kelvin Kogi - 0799009093</td><td>0799009093</td><td>8400</td><td>Paid</td><td>UHTM54ROQL</td></tr><tr><td>Peter Kinyua</td><td>0702537642</td><td>3600</td><td>Paid</td><td>UHT0R57Z7V</td></tr><tr><td>Tobias kipkorir</td><td>0710239169</td><td>1200</td><td>Paid</td><td>UHTEL4OYXL</td></tr><tr><td>Cyrus okoth</td><td>0707660455</td><td>1200</td><td>Paid</td><td>UHT8H4OB3Q</td></tr><tr><td>Elias Barsa</td><td>0799237893</td><td>1200</td><td>Paid</td><td>UHTQL4QLUK</td></tr><tr><td>David Wendot - 0728309519</td><td>0728309519</td><td>9800</td><td>Paid</td><td>UHTK64ABTI</td></tr><tr><td>Kennedy Wamuguna</td><td>0717291435</td><td>600</td><td>Paid</td><td>UHTNY4H21E</td></tr><tr><td>Wilyketh Shevei - 0797123861</td><td>0797123861</td><td>8400</td><td>Paid</td><td>UHTKQ56L3C</td></tr><tr><td>Joel Kinyari</td><td>0704490610</td><td>1200</td><td>Paid</td><td>UHTE44GRRP</td></tr><tr><td>Jecinta waihuini</td><td>0110067319</td><td>3600</td><td>Paid</td><td>UHTCV4DI5B</td></tr><tr><td>Reagan Ojango</td><td>0700769189</td><td>1200</td><td>Paid</td><td>UHTBR4GUND</td></tr><tr><td>Cyrus luvai</td><td>0742747080</td><td>1200</td><td>Paid</td><td>UHT8R4RTCZ</td></tr><tr><td>Simon Kinyanjui</td><td>0718465124</td><td>2600</td><td>Paid</td><td>UHTMO421IG</td></tr>
+                      </tbody>
+                        <tbody><tr><td></td><td></td><td></td><td></td><td></td></tr>                   
+                    </tbody></table>
+                    </div>
+                    <!-- End Table -->
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left multigrid_view_more ">View all Endweek (56) Pay Payment beneficiaries <i class="fa fa-arrow-right"></i> </div>
+                    </div>
+                    <!-- End Title ribbon-->                    
+                    
+               </td><td>receiver name</td><td>receiver mobile</td><td>amount to send</td><td>status</td><td>transaction ref</td><td>Moureen Kariuki - 0115870331</td><td>0115870331</td><td>3600</td><td>Paid</td><td>UHTFQ4K4CR</td><td>Dennis Kimtai - 0711911616</td><td>0711911616</td><td>3000</td><td>Paid</td><td>UHTKH4HX5S</td><td>Kelvin Kogi - 0799009093</td><td>0799009093</td><td>8400</td><td>Paid</td><td>UHTM54ROQL</td><td>Peter Kinyua</td><td>0702537642</td><td>3600</td><td>Paid</td><td>UHT0R57Z7V</td><td>Tobias kipkorir</td><td>0710239169</td><td>1200</td><td>Paid</td><td>UHTEL4OYXL</td><td>Cyrus okoth</td><td>0707660455</td><td>1200</td><td>Paid</td><td>UHT8H4OB3Q</td><td>Elias Barsa</td><td>0799237893</td><td>1200</td><td>Paid</td><td>UHTQL4QLUK</td><td>David Wendot - 0728309519</td><td>0728309519</td><td>9800</td><td>Paid</td><td>UHTK64ABTI</td><td>Kennedy Wamuguna</td><td>0717291435</td><td>600</td><td>Paid</td><td>UHTNY4H21E</td><td>Wilyketh Shevei - 0797123861</td><td>0797123861</td><td>8400</td><td>Paid</td><td>UHTKQ56L3C</td><td>Joel Kinyari</td><td>0704490610</td><td>1200</td><td>Paid</td><td>UHTE44GRRP</td><td>Jecinta waihuini</td><td>0110067319</td><td>3600</td><td>Paid</td><td>UHTCV4DI5B</td><td>Reagan Ojango</td><td>0700769189</td><td>1200</td><td>Paid</td><td>UHTBR4GUND</td><td>Cyrus luvai</td><td>0742747080</td><td>1200</td><td>Paid</td><td>UHT8R4RTCZ</td><td>Simon Kinyanjui</td><td>0718465124</td><td>2600</td><td>Paid</td><td>UHTMO421IG</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>receiver name</td><td>receiver mobile</td><td>amount to send</td><td>status</td><td>transaction ref</td></tr><tr><td>Moureen Kariuki - 0115870331</td><td>0115870331</td><td>3600</td><td>Paid</td><td>UHTFQ4K4CR</td></tr><tr><td>Dennis Kimtai - 0711911616</td><td>0711911616</td><td>3000</td><td>Paid</td><td>UHTKH4HX5S</td></tr><tr><td>Kelvin Kogi - 0799009093</td><td>0799009093</td><td>8400</td><td>Paid</td><td>UHTM54ROQL</td></tr><tr><td>Peter Kinyua</td><td>0702537642</td><td>3600</td><td>Paid</td><td>UHT0R57Z7V</td></tr><tr><td>Tobias kipkorir</td><td>0710239169</td><td>1200</td><td>Paid</td><td>UHTEL4OYXL</td></tr><tr><td>Cyrus okoth</td><td>0707660455</td><td>1200</td><td>Paid</td><td>UHT8H4OB3Q</td></tr><tr><td>Elias Barsa</td><td>0799237893</td><td>1200</td><td>Paid</td><td>UHTQL4QLUK</td></tr><tr><td>David Wendot - 0728309519</td><td>0728309519</td><td>9800</td><td>Paid</td><td>UHTK64ABTI</td></tr><tr><td>Kennedy Wamuguna</td><td>0717291435</td><td>600</td><td>Paid</td><td>UHTNY4H21E</td></tr><tr><td>Wilyketh Shevei - 0797123861</td><td>0797123861</td><td>8400</td><td>Paid</td><td>UHTKQ56L3C</td></tr><tr><td>Joel Kinyari</td><td>0704490610</td><td>1200</td><td>Paid</td><td>UHTE44GRRP</td></tr><tr><td>Jecinta waihuini</td><td>0110067319</td><td>3600</td><td>Paid</td><td>UHTCV4DI5B</td></tr><tr><td>Reagan Ojango</td><td>0700769189</td><td>1200</td><td>Paid</td><td>UHTBR4GUND</td></tr><tr><td>Cyrus luvai</td><td>0742747080</td><td>1200</td><td>Paid</td><td>UHT8R4RTCZ</td></tr><tr><td>Simon Kinyanjui</td><td>0718465124</td><td>2600</td><td>Paid</td><td>UHTMO421IG</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td><span title="D6N5P7C">Amani Ridge 403</span></td><td><span title="2026-08-29 16:31:06">2026-08-29 16:31:06</span></td><td><span>Endweek (61) Pay</span></td><td><span title="61">61</span></td><td><span title="4">4</span></td><td><span title="19200">19200</span></td><td><span title="0">0</span></td><td><span title="19200">19200</span></td><td><span title="0">0</span></td><td><span title="4">4</span></td></tr><tr><td>
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left h6"><b>Endweek (61) Pay Payment beneficiaries</b></div>
+                      <div class="col-md-12 border-bottom border_set" style="height: 1px"></div>
+                    </div>
+                    <!-- End Title ribbon-->
+                                        <!-- Start Table -->
+                    <div class="table-responsive data-tables">
+                    <table class="table table-hover text-left">
+                      <thead class="text-uppercase">
+                        <tr><th>receiver name</th><th>receiver mobile</th><th>amount to send</th><th>status</th><th>transaction ref</th></tr>                      </thead>
+                        <tbody>                      
+                          <tr><td>DANIEL MBUGUA - 0710694574</td><td>0710694574</td><td>2000</td><td>Paid</td><td>UHTLE4ST5D</td></tr><tr><td>Antony kiria - 0798537965</td><td>0798537965</td><td>4200</td><td>Paid</td><td>UHTNV50V8P</td></tr><tr><td>Peter mwangi - 0757043386</td><td>0757043386</td><td>7500</td><td>Paid</td><td>UHTBM4R0DH</td></tr><tr><td>Peter kamau</td><td>0743523616</td><td>5500</td><td>Paid</td><td>UHTCN4P5I1</td></tr>
+                      </tbody>
+                        <tbody><tr><td></td><td></td><td></td><td></td><td></td></tr>                   
+                    </tbody></table>
+                    </div>
+                    <!-- End Table -->
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left multigrid_view_more ">View all Endweek (61) Pay Payment beneficiaries <i class="fa fa-arrow-right"></i> </div>
+                    </div>
+                    <!-- End Title ribbon-->                    
+                    
+               </td><td>receiver name</td><td>receiver mobile</td><td>amount to send</td><td>status</td><td>transaction ref</td><td>DANIEL MBUGUA - 0710694574</td><td>0710694574</td><td>2000</td><td>Paid</td><td>UHTLE4ST5D</td><td>Antony kiria - 0798537965</td><td>0798537965</td><td>4200</td><td>Paid</td><td>UHTNV50V8P</td><td>Peter mwangi - 0757043386</td><td>0757043386</td><td>7500</td><td>Paid</td><td>UHTBM4R0DH</td><td>Peter kamau</td><td>0743523616</td><td>5500</td><td>Paid</td><td>UHTCN4P5I1</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>receiver name</td><td>receiver mobile</td><td>amount to send</td><td>status</td><td>transaction ref</td></tr><tr><td>DANIEL MBUGUA - 0710694574</td><td>0710694574</td><td>2000</td><td>Paid</td><td>UHTLE4ST5D</td></tr><tr><td>Antony kiria - 0798537965</td><td>0798537965</td><td>4200</td><td>Paid</td><td>UHTNV50V8P</td></tr><tr><td>Peter mwangi - 0757043386</td><td>0757043386</td><td>7500</td><td>Paid</td><td>UHTBM4R0DH</td></tr><tr><td>Peter kamau</td><td>0743523616</td><td>5500</td><td>Paid</td><td>UHTCN4P5I1</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td><span title="RU8XF57">Kijani Ridge D17</span></td><td><span title="2026-08-29 16:29:54">2026-08-29 16:29:54</span></td><td><span>Endweek (91) Pay</span></td><td><span title="91">91</span></td><td><span title="1">1</span></td><td><span title="4000">4000</span></td><td><span title="0">0</span></td><td><span title="4000">4000</span></td><td><span title="0">0</span></td><td><span title="1">1</span></td></tr><tr><td>
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left h6"><b>Endweek (91) Pay Payment beneficiaries</b></div>
+                      <div class="col-md-12 border-bottom border_set" style="height: 1px"></div>
+                    </div>
+                    <!-- End Title ribbon-->
+                                        <!-- Start Table -->
+                    <div class="table-responsive data-tables">
+                    <table class="table table-hover text-left">
+                      <thead class="text-uppercase">
+                        <tr><th>receiver name</th><th>receiver mobile</th><th>amount to send</th><th>status</th><th>transaction ref</th></tr>                      </thead>
+                        <tbody>                      
+                          <tr><td>DANIEL MBUGUA </td><td>0710694574</td><td>4000</td><td>Paid</td><td>UHTLE4ST6J</td></tr>
+                      </tbody>
+                        <tbody><tr><td></td><td></td><td></td><td></td><td></td></tr>                   
+                    </tbody></table>
+                    </div>
+                    <!-- End Table -->
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left multigrid_view_more ">View all Endweek (91) Pay Payment beneficiaries <i class="fa fa-arrow-right"></i> </div>
+                    </div>
+                    <!-- End Title ribbon-->                    
+                    
+               </td><td>receiver name</td><td>receiver mobile</td><td>amount to send</td><td>status</td><td>transaction ref</td><td>DANIEL MBUGUA </td><td>0710694574</td><td>4000</td><td>Paid</td><td>UHTLE4ST6J</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>receiver name</td><td>receiver mobile</td><td>amount to send</td><td>status</td><td>transaction ref</td></tr><tr><td>DANIEL MBUGUA </td><td>0710694574</td><td>4000</td><td>Paid</td><td>UHTLE4ST6J</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td><span title="H1NQCOT">Nakuru</span></td><td><span title="2026-08-29 16:27:58">2026-08-29 16:27:58</span></td><td><span>Endweek (19) Pay</span></td><td><span title="19">19</span></td><td><span title="2">2</span></td><td><span title="16200">16200</span></td><td><span title="0">0</span></td><td><span title="16200">16200</span></td><td><span title="0">0</span></td><td><span title="2">2</span></td></tr><tr><td>
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left h6"><b>Endweek (19) Pay Payment beneficiaries</b></div>
+                      <div class="col-md-12 border-bottom border_set" style="height: 1px"></div>
+                    </div>
+                    <!-- End Title ribbon-->
+                                        <!-- Start Table -->
+                    <div class="table-responsive data-tables">
+                    <table class="table table-hover text-left">
+                      <thead class="text-uppercase">
+                        <tr><th>receiver name</th><th>receiver mobile</th><th>amount to send</th><th>status</th><th>transaction ref</th></tr>                      </thead>
+                        <tbody>                      
+                          <tr><td>Kennedy Kahumbu - 0769809837</td><td>0769809837</td><td>5400</td><td>Paid</td><td>UHTA84MT19</td></tr><tr><td>Joseph Kibira - 0729850647</td><td>0729850647</td><td>10800</td><td>Paid</td><td>UHTEC52QEZ</td></tr>
+                      </tbody>
+                        <tbody><tr><td></td><td></td><td></td><td></td><td></td></tr>                   
+                    </tbody></table>
+                    </div>
+                    <!-- End Table -->
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left multigrid_view_more ">View all Endweek (19) Pay Payment beneficiaries <i class="fa fa-arrow-right"></i> </div>
+                    </div>
+                    <!-- End Title ribbon-->                    
+                    
+               </td><td>receiver name</td><td>receiver mobile</td><td>amount to send</td><td>status</td><td>transaction ref</td><td>Kennedy Kahumbu - 0769809837</td><td>0769809837</td><td>5400</td><td>Paid</td><td>UHTA84MT19</td><td>Joseph Kibira - 0729850647</td><td>0729850647</td><td>10800</td><td>Paid</td><td>UHTEC52QEZ</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>receiver name</td><td>receiver mobile</td><td>amount to send</td><td>status</td><td>transaction ref</td></tr><tr><td>Kennedy Kahumbu - 0769809837</td><td>0769809837</td><td>5400</td><td>Paid</td><td>UHTA84MT19</td></tr><tr><td>Joseph Kibira - 0729850647</td><td>0729850647</td><td>10800</td><td>Paid</td><td>UHTEC52QEZ</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td><span title="RU8XF57">Kijani Ridge D17</span></td><td><span title="2026-08-29 16:29:54">2026-08-29 16:29:54</span></td><td><span></span></td><td><span title="91">91</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td></tr><tr><td>
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left h6"><b> Payment beneficiaries</b></div>
+                      <div class="col-md-12 border-bottom border_set" style="height: 1px"></div>
+                    </div>
+                    <!-- End Title ribbon-->
+                                          <div class="col-md-12 text-center " id="">No Beneficiaries records found</div>
+                    
+               </td></tr><tr><td><span title="RU8XF57">Kijani Ridge D17</span></td><td><span title="2026-08-22 17:02:37">2026-08-22 17:02:37</span></td><td><span>Endweek (90) Pay</span></td><td><span title="90">90</span></td><td><span title="8">8</span></td><td><span title="20900">20900</span></td><td><span title="0">0</span></td><td><span title="20900">20900</span></td><td><span title="0">0</span></td><td><span title="8">8</span></td></tr><tr><td>
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left h6"><b>Endweek (90) Pay Payment beneficiaries</b></div>
+                      <div class="col-md-12 border-bottom border_set" style="height: 1px"></div>
+                    </div>
+                    <!-- End Title ribbon-->
+                                        <!-- Start Table -->
+                    <div class="table-responsive data-tables">
+                    <table class="table table-hover text-left">
+                      <thead class="text-uppercase">
+                        <tr><th>receiver name</th><th>receiver mobile</th><th>amount to send</th><th>status</th><th>transaction ref</th></tr>                      </thead>
+                        <tbody>                      
+                          <tr><td>Oliver juma - 0795291200</td><td>0795291200</td><td>1800</td><td>Paid</td><td>UHM5E40TUR</td></tr><tr><td>Frank Mugisha </td><td>0112503421</td><td>600</td><td>Paid</td><td>UHMAU3ZMG9</td></tr><tr><td>Boniface Nyaundi </td><td>0758075601</td><td>600</td><td>Paid</td><td>UHMB93XNMH</td></tr><tr><td>Kelvin Mwathi </td><td>0795380717</td><td>600</td><td>Paid</td><td>UHM793OC5X</td></tr><tr><td>John Njoroge - 0792695237</td><td>0792695237</td><td>5200</td><td>Paid</td><td>UHM4Y3F2OP</td></tr><tr><td> Epimaque fizigie </td><td>0119647308</td><td>600</td><td>Paid</td><td>UHM7H3PO88</td></tr><tr><td>DANIEL MBUGUA </td><td>0710694574</td><td>6000</td><td>Paid</td><td>UHMLE3ZKV4</td></tr><tr><td>Peter kamau</td><td>0743523616</td><td>5500</td><td>Paid</td><td>UHMCN3W6SI</td></tr>
+                      </tbody>
+                        <tbody><tr><td></td><td></td><td></td><td></td><td></td></tr>                   
+                    </tbody></table>
+                    </div>
+                    <!-- End Table -->
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left multigrid_view_more ">View all Endweek (90) Pay Payment beneficiaries <i class="fa fa-arrow-right"></i> </div>
+                    </div>
+                    <!-- End Title ribbon-->                    
+                    
+               </td><td>receiver name</td><td>receiver mobile</td><td>amount to send</td><td>status</td><td>transaction ref</td><td>Oliver juma - 0795291200</td><td>0795291200</td><td>1800</td><td>Paid</td><td>UHM5E40TUR</td><td>Frank Mugisha </td><td>0112503421</td><td>600</td><td>Paid</td><td>UHMAU3ZMG9</td><td>Boniface Nyaundi </td><td>0758075601</td><td>600</td><td>Paid</td><td>UHMB93XNMH</td><td>Kelvin Mwathi </td><td>0795380717</td><td>600</td><td>Paid</td><td>UHM793OC5X</td><td>John Njoroge - 0792695237</td><td>0792695237</td><td>5200</td><td>Paid</td><td>UHM4Y3F2OP</td><td> Epimaque fizigie </td><td>0119647308</td><td>600</td><td>Paid</td><td>UHM7H3PO88</td><td>DANIEL MBUGUA </td><td>0710694574</td><td>6000</td><td>Paid</td><td>UHMLE3ZKV4</td><td>Peter kamau</td><td>0743523616</td><td>5500</td><td>Paid</td><td>UHMCN3W6SI</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>receiver name</td><td>receiver mobile</td><td>amount to send</td><td>status</td><td>transaction ref</td></tr><tr><td>Oliver juma - 0795291200</td><td>0795291200</td><td>1800</td><td>Paid</td><td>UHM5E40TUR</td></tr><tr><td>Frank Mugisha </td><td>0112503421</td><td>600</td><td>Paid</td><td>UHMAU3ZMG9</td></tr><tr><td>Boniface Nyaundi </td><td>0758075601</td><td>600</td><td>Paid</td><td>UHMB93XNMH</td></tr><tr><td>Kelvin Mwathi </td><td>0795380717</td><td>600</td><td>Paid</td><td>UHM793OC5X</td></tr><tr><td>John Njoroge - 0792695237</td><td>0792695237</td><td>5200</td><td>Paid</td><td>UHM4Y3F2OP</td></tr><tr><td> Epimaque fizigie </td><td>0119647308</td><td>600</td><td>Paid</td><td>UHM7H3PO88</td></tr><tr><td>DANIEL MBUGUA </td><td>0710694574</td><td>6000</td><td>Paid</td><td>UHMLE3ZKV4</td></tr><tr><td>Peter kamau</td><td>0743523616</td><td>5500</td><td>Paid</td><td>UHMCN3W6SI</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td><span title="P7P3CF8">RIVERVIEW RESIDENCE FOR MO YUSUF</span></td><td><span title="2026-08-22 17:02:08">2026-08-22 17:02:08</span></td><td><span>Endweek (55) Pay</span></td><td><span title="55">55</span></td><td><span title="10">10</span></td><td><span title="45500">45500</span></td><td><span title="0">0</span></td><td><span title="45500">45500</span></td><td><span title="0">0</span></td><td><span title="10">10</span></td></tr><tr><td>
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left h6"><b>Endweek (55) Pay Payment beneficiaries</b></div>
+                      <div class="col-md-12 border-bottom border_set" style="height: 1px"></div>
+                    </div>
+                    <!-- End Title ribbon-->
+                                        <!-- Start Table -->
+                    <div class="table-responsive data-tables">
+                    <table class="table table-hover text-left">
+                      <thead class="text-uppercase">
+                        <tr><th>receiver name</th><th>receiver mobile</th><th>amount to send</th><th>status</th><th>transaction ref</th></tr>                      </thead>
+                        <tbody>                      
+                          <tr><td>Moureen Kariuki - 0115870331</td><td>0115870331</td><td>3600</td><td>Paid</td><td>UHMFQ3R4YQ</td></tr><tr><td>John Atwoli</td><td>0724746210</td><td>1300</td><td>Paid</td><td>UHMEL3WB22</td></tr><tr><td>Ruben Simiyu - 0701548476</td><td>0701548476</td><td>3000</td><td>Paid</td><td>UHM5L3W77D</td></tr><tr><td>Dennis Kimtai - 0711911616</td><td>0711911616</td><td>5000</td><td>Paid</td><td>UHMKH3P3ZY</td></tr><tr><td>Kelvin Kogi - 0799009093</td><td>0799009093</td><td>8400</td><td>Paid</td><td>UHMM53YDT8</td></tr><tr><td>Peter Kinyua</td><td>0702537642</td><td>1200</td><td>Paid</td><td>UHM0R4ECBN</td></tr><tr><td>Cyrus okoth</td><td>0707660455</td><td>1200</td><td>Paid</td><td>UHM8H3V7OY</td></tr><tr><td>David Wendot - 0728309519</td><td>0728309519</td><td>9800</td><td>Paid</td><td>UHMK63HWM7</td></tr><tr><td>Wilyketh Shevei - 0797123861</td><td>0797123861</td><td>8400</td><td>Paid</td><td>UHMKQ4DBL0</td></tr><tr><td>Jecinta waihuini</td><td>0110067319</td><td>3600</td><td>Paid</td><td>UHMCV3KAEN</td></tr>
+                      </tbody>
+                        <tbody><tr><td></td><td></td><td></td><td></td><td></td></tr>                   
+                    </tbody></table>
+                    </div>
+                    <!-- End Table -->
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left multigrid_view_more ">View all Endweek (55) Pay Payment beneficiaries <i class="fa fa-arrow-right"></i> </div>
+                    </div>
+                    <!-- End Title ribbon-->                    
+                    
+               </td><td>receiver name</td><td>receiver mobile</td><td>amount to send</td><td>status</td><td>transaction ref</td><td>Moureen Kariuki - 0115870331</td><td>0115870331</td><td>3600</td><td>Paid</td><td>UHMFQ3R4YQ</td><td>John Atwoli</td><td>0724746210</td><td>1300</td><td>Paid</td><td>UHMEL3WB22</td><td>Ruben Simiyu - 0701548476</td><td>0701548476</td><td>3000</td><td>Paid</td><td>UHM5L3W77D</td><td>Dennis Kimtai - 0711911616</td><td>0711911616</td><td>5000</td><td>Paid</td><td>UHMKH3P3ZY</td><td>Kelvin Kogi - 0799009093</td><td>0799009093</td><td>8400</td><td>Paid</td><td>UHMM53YDT8</td><td>Peter Kinyua</td><td>0702537642</td><td>1200</td><td>Paid</td><td>UHM0R4ECBN</td><td>Cyrus okoth</td><td>0707660455</td><td>1200</td><td>Paid</td><td>UHM8H3V7OY</td><td>David Wendot - 0728309519</td><td>0728309519</td><td>9800</td><td>Paid</td><td>UHMK63HWM7</td><td>Wilyketh Shevei - 0797123861</td><td>0797123861</td><td>8400</td><td>Paid</td><td>UHMKQ4DBL0</td><td>Jecinta waihuini</td><td>0110067319</td><td>3600</td><td>Paid</td><td>UHMCV3KAEN</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>receiver name</td><td>receiver mobile</td><td>amount to send</td><td>status</td><td>transaction ref</td></tr><tr><td>Moureen Kariuki - 0115870331</td><td>0115870331</td><td>3600</td><td>Paid</td><td>UHMFQ3R4YQ</td></tr><tr><td>John Atwoli</td><td>0724746210</td><td>1300</td><td>Paid</td><td>UHMEL3WB22</td></tr><tr><td>Ruben Simiyu - 0701548476</td><td>0701548476</td><td>3000</td><td>Paid</td><td>UHM5L3W77D</td></tr><tr><td>Dennis Kimtai - 0711911616</td><td>0711911616</td><td>5000</td><td>Paid</td><td>UHMKH3P3ZY</td></tr><tr><td>Kelvin Kogi - 0799009093</td><td>0799009093</td><td>8400</td><td>Paid</td><td>UHMM53YDT8</td></tr><tr><td>Peter Kinyua</td><td>0702537642</td><td>1200</td><td>Paid</td><td>UHM0R4ECBN</td></tr><tr><td>Cyrus okoth</td><td>0707660455</td><td>1200</td><td>Paid</td><td>UHM8H3V7OY</td></tr><tr><td>David Wendot - 0728309519</td><td>0728309519</td><td>9800</td><td>Paid</td><td>UHMK63HWM7</td></tr><tr><td>Wilyketh Shevei - 0797123861</td><td>0797123861</td><td>8400</td><td>Paid</td><td>UHMKQ4DBL0</td></tr><tr><td>Jecinta waihuini</td><td>0110067319</td><td>3600</td><td>Paid</td><td>UHMCV3KAEN</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td><span title="D6N5P7C">Amani Ridge 403</span></td><td><span title="2026-08-22 17:01:30">2026-08-22 17:01:30</span></td><td><span>Endweek (60) Pay</span></td><td><span title="60">60</span></td><td><span title="2">2</span></td><td><span title="5500">5500</span></td><td><span title="0">0</span></td><td><span title="5500">5500</span></td><td><span title="0">0</span></td><td><span title="2">2</span></td></tr><tr><td>
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left h6"><b>Endweek (60) Pay Payment beneficiaries</b></div>
+                      <div class="col-md-12 border-bottom border_set" style="height: 1px"></div>
+                    </div>
+                    <!-- End Title ribbon-->
+                                        <!-- Start Table -->
+                    <div class="table-responsive data-tables">
+                    <table class="table table-hover text-left">
+                      <thead class="text-uppercase">
+                        <tr><th>receiver name</th><th>receiver mobile</th><th>amount to send</th><th>status</th><th>transaction ref</th></tr>                      </thead>
+                        <tbody>                      
+                          <tr><td>Alex limo - 0723246167</td><td>0723246167</td><td>1300</td><td>Paid</td><td>UHMKN43HBH</td></tr><tr><td>Antony kiria - 0798537965</td><td>0798537965</td><td>4200</td><td>Paid</td><td>UHMNV47IP6</td></tr>
+                      </tbody>
+                        <tbody><tr><td></td><td></td><td></td><td></td><td></td></tr>                   
+                    </tbody></table>
+                    </div>
+                    <!-- End Table -->
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left multigrid_view_more ">View all Endweek (60) Pay Payment beneficiaries <i class="fa fa-arrow-right"></i> </div>
+                    </div>
+                    <!-- End Title ribbon-->                    
+                    
+               </td><td>receiver name</td><td>receiver mobile</td><td>amount to send</td><td>status</td><td>transaction ref</td><td>Alex limo - 0723246167</td><td>0723246167</td><td>1300</td><td>Paid</td><td>UHMKN43HBH</td><td>Antony kiria - 0798537965</td><td>0798537965</td><td>4200</td><td>Paid</td><td>UHMNV47IP6</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>receiver name</td><td>receiver mobile</td><td>amount to send</td><td>status</td><td>transaction ref</td></tr><tr><td>Alex limo - 0723246167</td><td>0723246167</td><td>1300</td><td>Paid</td><td>UHMKN43HBH</td></tr><tr><td>Antony kiria - 0798537965</td><td>0798537965</td><td>4200</td><td>Paid</td><td>UHMNV47IP6</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td><span title="G0YSDTZ">Railways HQ</span></td><td><span title="2026-08-22 17:00:59">2026-08-22 17:00:59</span></td><td><span>Endweek (03) Pay</span></td><td><span title="3">3</span></td><td><span title="2">2</span></td><td><span title="1600">1600</span></td><td><span title="0">0</span></td><td><span title="1600">1600</span></td><td><span title="0">0</span></td><td><span title="2">2</span></td></tr><tr><td>
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left h6"><b>Endweek (03) Pay Payment beneficiaries</b></div>
+                      <div class="col-md-12 border-bottom border_set" style="height: 1px"></div>
+                    </div>
+                    <!-- End Title ribbon-->
+                                        <!-- Start Table -->
+                    <div class="table-responsive data-tables">
+                    <table class="table table-hover text-left">
+                      <thead class="text-uppercase">
+                        <tr><th>receiver name</th><th>receiver mobile</th><th>amount to send</th><th>status</th><th>transaction ref</th></tr>                      </thead>
+                        <tbody>                      
+                          <tr><td>Dennis Kimtai - 0711911616</td><td>0711911616</td><td>1000</td><td>Paid</td><td>UHMKH3P5M5</td></tr><tr><td>Pascal okello</td><td>0727392230</td><td>600</td><td>Paid</td><td>UHMI63KKJJ</td></tr>
+                      </tbody>
+                        <tbody><tr><td></td><td></td><td></td><td></td><td></td></tr>                   
+                    </tbody></table>
+                    </div>
+                    <!-- End Table -->
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left multigrid_view_more ">View all Endweek (03) Pay Payment beneficiaries <i class="fa fa-arrow-right"></i> </div>
+                    </div>
+                    <!-- End Title ribbon-->                    
+                    
+               </td><td>receiver name</td><td>receiver mobile</td><td>amount to send</td><td>status</td><td>transaction ref</td><td>Dennis Kimtai - 0711911616</td><td>0711911616</td><td>1000</td><td>Paid</td><td>UHMKH3P5M5</td><td>Pascal okello</td><td>0727392230</td><td>600</td><td>Paid</td><td>UHMI63KKJJ</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>receiver name</td><td>receiver mobile</td><td>amount to send</td><td>status</td><td>transaction ref</td></tr><tr><td>Dennis Kimtai - 0711911616</td><td>0711911616</td><td>1000</td><td>Paid</td><td>UHMKH3P5M5</td></tr><tr><td>Pascal okello</td><td>0727392230</td><td>600</td><td>Paid</td><td>UHMI63KKJJ</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td><span title="H1NQCOT">Nakuru</span></td><td><span title="2026-08-22 16:59:54">2026-08-22 16:59:54</span></td><td><span>Endweek (18) Pay</span></td><td><span title="18">18</span></td><td><span title="2">2</span></td><td><span title="16200">16200</span></td><td><span title="0">0</span></td><td><span title="16200">16200</span></td><td><span title="0">0</span></td><td><span title="2">2</span></td></tr><tr><td>
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left h6"><b>Endweek (18) Pay Payment beneficiaries</b></div>
+                      <div class="col-md-12 border-bottom border_set" style="height: 1px"></div>
+                    </div>
+                    <!-- End Title ribbon-->
+                                        <!-- Start Table -->
+                    <div class="table-responsive data-tables">
+                    <table class="table table-hover text-left">
+                      <thead class="text-uppercase">
+                        <tr><th>receiver name</th><th>receiver mobile</th><th>amount to send</th><th>status</th><th>transaction ref</th></tr>                      </thead>
+                        <tbody>                      
+                          <tr><td>Kennedy Kahumbu - 0769809837</td><td>0769809837</td><td>5400</td><td>Paid</td><td>UHMA83TTZQ</td></tr><tr><td>Joseph Kibira - 0799667292</td><td>0799667292</td><td>10800</td><td>Paid</td><td>UHME841ZXO</td></tr>
+                      </tbody>
+                        <tbody><tr><td></td><td></td><td></td><td></td><td></td></tr>                   
+                    </tbody></table>
+                    </div>
+                    <!-- End Table -->
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left multigrid_view_more ">View all Endweek (18) Pay Payment beneficiaries <i class="fa fa-arrow-right"></i> </div>
+                    </div>
+                    <!-- End Title ribbon-->                    
+                    
+               </td><td>receiver name</td><td>receiver mobile</td><td>amount to send</td><td>status</td><td>transaction ref</td><td>Kennedy Kahumbu - 0769809837</td><td>0769809837</td><td>5400</td><td>Paid</td><td>UHMA83TTZQ</td><td>Joseph Kibira - 0799667292</td><td>0799667292</td><td>10800</td><td>Paid</td><td>UHME841ZXO</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>receiver name</td><td>receiver mobile</td><td>amount to send</td><td>status</td><td>transaction ref</td></tr><tr><td>Kennedy Kahumbu - 0769809837</td><td>0769809837</td><td>5400</td><td>Paid</td><td>UHMA83TTZQ</td></tr><tr><td>Joseph Kibira - 0799667292</td><td>0799667292</td><td>10800</td><td>Paid</td><td>UHME841ZXO</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td><span title="4TFTQ7K">sofia</span></td><td><span title="2026-08-22 13:56:39">2026-08-22 13:56:39</span></td><td><span></span></td><td><span title="1">1</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td></tr><tr><td>
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left h6"><b> Payment beneficiaries</b></div>
+                      <div class="col-md-12 border-bottom border_set" style="height: 1px"></div>
+                    </div>
+                    <!-- End Title ribbon-->
+                                          <div class="col-md-12 text-center " id="">No Beneficiaries records found</div>
+                    
+               </td></tr><tr><td><span title="4TFTQ7K">sofia</span></td><td><span title="2026-08-22 13:55:07">2026-08-22 13:55:07</span></td><td><span></span></td><td><span title="1">1</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td></tr><tr><td>
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left h6"><b> Payment beneficiaries</b></div>
+                      <div class="col-md-12 border-bottom border_set" style="height: 1px"></div>
+                    </div>
+                    <!-- End Title ribbon-->
+                                          <div class="col-md-12 text-center " id="">No Beneficiaries records found</div>
+                    
+               </td></tr><tr><td><span title="4TFTQ7K">sofia</span></td><td><span title="2026-08-22 13:54:10">2026-08-22 13:54:10</span></td><td><span></span></td><td><span title="1">1</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td></tr><tr><td>
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left h6"><b> Payment beneficiaries</b></div>
+                      <div class="col-md-12 border-bottom border_set" style="height: 1px"></div>
+                    </div>
+                    <!-- End Title ribbon-->
+                                          <div class="col-md-12 text-center " id="">No Beneficiaries records found</div>
+                    
+               </td></tr><tr><td><span title="4TFTQ7K">sofia</span></td><td><span title="2026-08-22 13:53:27">2026-08-22 13:53:27</span></td><td><span></span></td><td><span title="1">1</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td></tr><tr><td>
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left h6"><b> Payment beneficiaries</b></div>
+                      <div class="col-md-12 border-bottom border_set" style="height: 1px"></div>
+                    </div>
+                    <!-- End Title ribbon-->
+                                          <div class="col-md-12 text-center " id="">No Beneficiaries records found</div>
+                    
+               </td></tr><tr><td><span title="4TFTQ7K">sofia</span></td><td><span title="2026-08-22 13:52:48">2026-08-22 13:52:48</span></td><td><span></span></td><td><span title=""></span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td><td><span title="0">0</span></td></tr><tr><td>
+                     <!-- Start  Title ribbon-->
+                    <div class="col-md-12 row p-2  justify-content-center p-0">
+                      <div class="col text-left h6"><b> Payment beneficiaries</b></div>
+                      <div class="col-md-12 border-bottom border_set" style="height: 1px"></div>
+                    </div>
+                    <!-- End Title ribbon-->
+                                          <div class="col-md-12 text-center " id="">No Beneficiaries records found</div>
+                    
+               </td></tr><tr><td><b></b></td><td><b></b></td><td><b></b></td><td><b></b></td><td><b></b></td><td><b></b></td><td><b></b></td><td><b></b></td><td><b></b></td><td><b></b></td></tr></table></body></html>

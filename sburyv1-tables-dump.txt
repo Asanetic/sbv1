@@ -1,0 +1,128 @@
+//Table name : account_urls
+
+// columns : "primkey" , "record_id" , "url_name" , "url" , "description" , "hive_site_id" , "hive_site_name" , 
+
+//Table name : attendance_list
+
+// columns : "primkey" , "record_id" , "name" , "mobile" , "national_id" , "daily_wages" , "remark" , "paid_status" , "paid_ref_no" , "site_id" , "site_name" , "date_paid" , "roll_date" , "day_count" , "deductions" , "deduction_remark" , "task_assigned" , "project_phase" , "sitetest" , "hive_site_id" , "hive_site_name" , 
+
+//Table name : cash_deposits
+
+// columns : "primkey" , "postkey" , "amount_posted" , "posted_by" , "date_posted" , "posting_remark" , "admin_name" , "project_id" , "project_name" , "hive_site_id" , "hive_site_name" , 
+
+//Table name : contractors
+
+// columns : "primkey" , "record_id" , "name" , "phone_number" , "email" , "business_name" , "speciality" , "remark" , 
+
+//Table name : custom_payments
+
+// columns : "primkey" , "record_id" , "receiver_name" , "receiver_mobile" , "receiver_remark" , "amount_to_send" , "amount_sent" , "time_sent" , "status" , "project_id" , "project_name" , "transaction_ref" , "tracking_id" , "payment_request_response" , "sms_notification_response" , "notification_number" , "hive_site_id" , "hive_site_name" , "admin" , "vendor" , "expense_id" , "receiver_id" , "signature_id" , "staff" , "week_number" , 
+
+//Table name : disbursment_schedule
+
+// columns : "primkey" , "record_id" , "remark" , "send_on" , "authorized_by" , "authorized_on" , "status" , "project_id" , "project_name" , "otp" , "date_sent" , "otp_verified" , "otp_verified_by" , "disbursment_status" , "disbursed_on" , "hive_site_id" , "hive_site_name" , "week_number" , 
+
+//Table name : disbursment_settings
+
+// columns : "primkey" , "record_id" , "settings_name" , "settings_code" , "settings_value" , "last_updated" , 
+
+//Table name : doc_settings
+
+// columns : "primkey" , "record_id" , "company_name" , "company_tel" , "company_email" , "logo" , "address" , "company_description" , "active_status" , "hive_site_id" , "hive_site_name" , 
+
+//Table name : expenses
+
+// columns : "primkey" , "record_id" , "expense_name" , "expense_category" , "rate" , "quantity" , "ref_no" , "expense_remark" , "site_id" , "expense_date" , "week_no" , "hive_site_id" , "hive_site_name" , "subcontracor" , "staff" , "admin" , 
+
+//Table name : message_templates
+
+// columns : "primkey" , "record_id" , "template_name" , "message_subject" , "message_template" , "template_code" , 
+
+//Table name : messaging
+
+// columns : "primkey" , "messageid" , "receiver_contacts" , "reciver_names" , "message_type" , "site_id" , "group_name" , "message_date" , "sent_state" , "msg_read_state" , "subject" , "message_label" , "about" , "sms_cost" , "page_count" , "hive_site_id" , "hive_site_name" , "custom_dictionary" , "message_signature" , 
+
+//Table name : mosy_sql_roll_back
+
+// columns : "primkey" , "roll_bk_key" , "table_name" , "roll_type" , "where_str" , "roll_timestamp" , "value_entries" , "project_id" , "project_name" , "hive_site_id" , "hive_site_name" , 
+
+//Table name : mosycomms_array
+
+// columns : "primkey" , "messageid" , "receiver_contacts" , "reciver_names" , "message_type" , "site_id" , "group_name" , "message_date" , "sent_state" , "msg_read_state" , "subject" , "message_label" , "message" , "delvery_receipt" , "mosycomms_dictionary" , "sms_cost" , "page_count" , "hive_site_id" , "hive_site_name" , "project_id" , "project_name" , 
+
+//Table name : mosycomms_settings
+
+// columns : "primkey" , "record_id" , "company_name" , "company_email" , "hive_site_id" , "hive_site_name" , "project_id" , "project_name" , 
+
+//Table name : otp_codes
+
+// columns : "primkey" , "record_id" , "otp_code" , "verified" , "request_date" , "item_id" , 
+
+//Table name : page_manifest_
+
+// columns : "primkey" , "manikey" , "page_group" , "site_id" , "page_url" , "hive_site_id" , "hive_site_name" , "project_id" , "project_name" , 
+
+//Table name : paybill_disbursments
+
+// columns : "primkey" , "trxkey" , "trx_id" , "trx_date" , "trx_month_year" , "trx_remark" , "amount" , "trx_type" , "business_id" , "client_id" , "admin_id" , "TransactionType" , "BusinessShortCode" , "BillRefNumber" , "InvoiceNumber" , "OrgAccountBalance" , "ThirdPartyTransID" , "MSISDN" , "FirstName" , "MiddleName" , "LastName" , "trx_msg" , "account_id" , "used_status" , "filter_date" , "flw_id" , "flag_state" , "reconciled" , "trx_timestamp" , "hive_site_id" , "hive_site_name" , 
+
+//Table name : payment_confirmations
+
+// columns : "primkey" , "record_id" , "result_type" , "result_code" , "result_desc" , "originator_conversation_id" , "conversation_id" , "transaction_id" , "transaction_amount" , "transaction_receipt" , "recipient_registered" , "charges_paid_funds" , "receiver_public_name" , "transaction_date_time" , "utility_funds" , "working_funds" , "queue_timeout_url" , "created_at" , "hive_site_id" , "hive_site_name" , 
+
+//Table name : payment_receivers
+
+// columns : "primkey" , "record_id" , "receiver_name" , "receiver_mobile" , "receiver_remark" , "amount_to_send" , "schedule_id" , "schedule_remark" , "time_sent" , "status" , "import_signature" , "project_id" , "project_name" , "no_of_days" , "staff_id" , "daily_wages" , "transaction_ref" , "tracking_id" , "payment_request_response" , "sms_notification_response" , "notification_number" , "hive_site_id" , "hive_site_name" , "week_number" , "admin" , "vendor" , "expense_id" , "totals" , "deductions" , 
+
+//Table name : phonebook
+
+// columns : "primkey" , "contact_id" , "name" , "email" , "tel" , "profile_photo" , "username" , "site_id" , "hive_site_id" , "hive_site_name" , 
+
+//Table name : project_phases
+
+// columns : "primkey" , "record_id" , "phase_name" , "project_type" , "phase_remark" , "section" , "hive_site_id" , "hive_site_name" , 
+
+//Table name : send_list
+
+// columns : "primkey" , "send_list_key" , "send_list_name" , "site_id" , "contact_id" , "contact_names" , "mobile" , "email" , "ref_no" , "group_name" , "date_created" , "description" , "active_state" , "service_id" , "service_name" , "hive_site_id" , "hive_site_name" , "entry_context" , 
+
+//Table name : site_list
+
+// columns : "primkey" , "record_id" , "site_name" , "site_location" , "contact_person" , "contact_person_mobile" , "remark" , "project_id" , "project_name" , "account_number" , "stk_flag" , "hive_site_id" , "hive_site_name" , 
+
+//Table name : staff
+
+// columns : "primkey" , "record_id" , "name" , "mobile" , "national_id" , "daily_wages" , "staff_role" , "site_id" , "site_name" , "notification_number" , "hive_site_id" , "hive_site_name" , 
+
+//Table name : staff_categories
+
+// columns : "primkey" , "record_id" , "work_title" , "category_name" , "wages" , "remark" , "hive_site_id" , "hive_site_name" , 
+
+//Table name : system_role_bundles
+
+// columns : "primkey" , "record_id" , "bundle_id" , "bundle_name" , "remark" , "hive_site_id" , "hive_site_name" , 
+
+//Table name : system_users
+
+// columns : "primkey" , "user_id" , "name" , "email" , "tel" , "login_password" , "ref_id" , "regdate" , "user_no" , "user_pic" , "user_gender" , "last_seen" , "about" , "hive_site_id" , "hive_site_name" , "auth_token" , "token_status" , "token_expiring_in" , "project_id" , "project_name" , "user_role" , 
+
+//Table name : transactions
+
+// columns : "primkey" , "trxkey" , "trx_id" , "trx_date" , "trx_month_year" , "trx_remark" , "amount" , "trx_type" , "business_id" , "client_id" , "admin_id" , "TransactionType" , "BusinessShortCode" , "BillRefNumber" , "InvoiceNumber" , "OrgAccountBalance" , "ThirdPartyTransID" , "MSISDN" , "FirstName" , "MiddleName" , "LastName" , "trx_msg" , "account_id" , "used_status" , "filter_date" , "flw_id" , "flag_state" , "reconciled" , "trx_timestamp" , "hive_site_name" , "hive_site_id" , 
+
+//Table name : user_bundle_role_functions
+
+// columns : "primkey" , "record_id" , "bundle_id" , "bundle_name" , "role_id" , "role_name" , "remark" , "hive_site_id" , "hive_site_name" , 
+
+//Table name : user_manifest_
+
+// columns : "primkey" , "admin_mkey" , "user_id" , "user_name" , "role_id" , "site_id" , "role_name" , "hive_site_id" , "hive_site_name" , "project_id" , "project_name" , 
+
+//Table name : user_site_allocation
+
+// columns : "primkey" , "record_id" , "site_id" , "site_name" , "remark" , "user_id" , "user_name" , "hive_site_id" , "hive_site_name" , 
+
+//Table name : work_schedule
+
+// columns : "primkey" , "record_id" , "site_id" , "task_description" , "subtotal" , "date_" , "client" , "week_no" , "hive_site_id" , "hive_site_name" , 
+

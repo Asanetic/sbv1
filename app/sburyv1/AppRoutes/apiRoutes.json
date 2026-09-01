@@ -1,0 +1,213 @@
+{
+    "smartapi": {
+        "base": "/api/sburyv1/smartapi"
+    },
+    "dashboard": {
+        "admin": "/api/sburyv1/dashboard/admin",
+        "superadmin": "/api/sburyv1/dashboard/superadmin"
+    },
+    "reports": {
+        "monthlydeposits": "/api/sburyv1/reports/monthlydeposits",
+        "monthlypayouts": "/api/sburyv1/reports/monthlypayouts",
+        "monthlyexpenses": "/api/sburyv1/reports/monthlyexpenses",
+        "payoutpersite": "/api/sburyv1/reports/payoutpersite",
+        "expensespersite": "/api/sburyv1/reports/expensespersite",
+        "labourcost": "/api/sburyv1/reports/labourcost"
+    },
+    "smartmessages": {
+        "base": "/api/sburyv1/messages/list",
+        "delete": "/api/sburyv1/messages/list/delete",
+        "import": "/api/sburyv1/messages/import"
+    },
+    "messages": {
+        "base": "/api/sburyv1/messages/list",
+        "delete": "/api/sburyv1/messages/list/delete",
+        "import": "/api/sburyv1/messages/import"
+    },
+    "messagetemplates": {
+        "base": "/api/sburyv1/messagetemplates/list",
+        "delete": "/api/sburyv1/messagetemplates/list/delete",
+        "import": "/api/sburyv1/messagetemplates/import"
+    },
+    "smartmessagetemplates": {
+        "base": "/api/sburyv1/messagetemplates/list",
+        "delete": "/api/sburyv1/messagetemplates/list/delete",
+        "import": "/api/sburyv1/messagetemplates/import"
+    },
+    "smartpaymentrequests": {
+        "base": "/api/sburyv1/smartpaymentrequests/list",
+        "delete": "/api/sburyv1/smartpaymentrequests/list/delete",
+        "import": "/api/sburyv1/smartpaymentrequests/import"
+    },
+    "contacts": {
+        "base": "/api/sburyv1/contacts/list",
+        "delete": "/api/sburyv1/contacts/list/delete",
+        "import": "/api/sburyv1/contacts/import"
+    },
+    "opportunities": {
+        "base": "/api/sburyv1/opportunities/list",
+        "delete": "/api/sburyv1/opportunities/list/delete",
+        "import": "/api/sburyv1/opportunities/import"
+    },
+    "systemrolebundles": {
+        "base": "/api/sburyv1/systemrolebundles/list",
+        "delete": "/api/sburyv1/systemrolebundles/list/delete",
+        "import": "/api/sburyv1/systemrolebundles/import"
+    },
+    "systemusers": {
+        "base": "/api/sburyv1/systemusers/list",
+        "delete": "/api/sburyv1/systemusers/list/delete",
+        "import": "/api/sburyv1/systemusers/import"
+    },
+    "systemmodules": {
+        "base": "/api/sburyv1/systemmodules/list",
+        "delete": "/api/sburyv1/systemmodules/list/delete",
+        "import": "/api/sburyv1/systemmodules/import"
+    },
+    "systemroles": {
+        "base": "/api/sburyv1/systemroles/list",
+        "delete": "/api/sburyv1/systemroles/list/delete",
+        "import": "/api/sburyv1/systemroles/import"
+    },
+    "ledger": {
+        "base": "/api/sburyv1/ledger/list",
+        "delete": "/api/sburyv1/ledger/list/delete",
+        "import": "/api/sburyv1/ledger/import"
+    },
+    "notes": {
+        "base": "/api/sburyv1/notes/list",
+        "delete": "/api/sburyv1/notes/list/delete",
+        "import": "/api/sburyv1/notes/import"
+    },
+    "calls": {
+        "base": "/api/sburyv1/calls/list",
+        "delete": "/api/sburyv1/calls/list/delete",
+        "import": "/api/sburyv1/calls/import"
+    },
+    "smartpayments": {
+        "base": "/api/sburyv1/smartpayments/list",
+        "delete": "/api/sburyv1/smartpayments/list/delete",
+        "import": "/api/sburyv1/smartpayments/import"
+    },
+    "paymentrequests": {
+        "base": "/api/sburyv1/paymentrequests/list",
+        "delete": "/api/sburyv1/paymentrequests/list/delete",
+        "import": "/api/sburyv1/paymentrequests/import"
+    },
+    "revenueplan": {
+        "base": "/api/sburyv1/revenueplan/list",
+        "delete": "/api/sburyv1/revenueplan/list/delete",
+        "import": "/api/sburyv1/revenueplan/import"
+    },
+    "activities": {
+        "base": "/api/sburyv1/activities/list",
+        "delete": "/api/sburyv1/activities/list/delete",
+        "import": "/api/sburyv1/activities/import"
+    },
+    "mosyreminders": {
+        "base": "/api/sburyv1/mosyreminders/list",
+        "delete": "/api/sburyv1/mosyreminders/list/delete",
+        "import": "/api/sburyv1/mosyreminders/import",
+        "run": "/api/sburyv1/runmosyreminders"
+    },
+    "mosymetrics": {
+        "base": "/api/sburyv1/mosymetrics/list",
+        "delete": "/api/sburyv1/mosymetrics/list/delete",
+        "import": "/api/sburyv1/mosymetrics/import"
+    },
+    "mosyreminderlog": {
+        "base": "/api/sburyv1/mosyreminderlog/list",
+        "delete": "/api/sburyv1/mosyreminderlog/list/delete",
+        "import": "/api/sburyv1/mosyreminderlog/import"
+    },
+    "mosyreminderlogs": {
+        "base": "/api/sburyv1/mosyreminderlogs/list",
+        "delete": "/api/sburyv1/mosyreminderlogs/list/delete",
+        "import": "/api/sburyv1/mosyreminderlogs/import"
+    },
+    "sites": {
+        "base": "/api/sburyv1/sites/list",
+        "delete": "/api/sburyv1/sites/list/delete",
+        "import": "/api/sburyv1/sites/import"
+    },
+    "projectphases": {
+        "base": "/api/sburyv1/projectphases/list",
+        "delete": "/api/sburyv1/projectphases/list/delete",
+        "import": "/api/sburyv1/projectphases/import"
+    },
+    "reportssites": {
+        "base": "/api/sburyv1/sites/reports",
+        "delete": "/api/sburyv1/sites/reports/delete",
+        "import": "/api/sburyv1/sites/import"
+    },
+    "reportsites": {
+        "base": "/api/sburyv1/sites/report",
+        "delete": "/api/sburyv1/sites/report/delete",
+        "import": "/api/sburyv1/sites/import"
+    },
+    "phonebook": {
+        "base": "/api/sburyv1/phonebook/list",
+        "delete": "/api/sburyv1/phonebook/list/delete",
+        "import": "/api/sburyv1/phonebook/import"
+    },
+    "expenses": {
+        "base": "/api/sburyv1/expenses/list",
+        "delete": "/api/sburyv1/expenses/list/delete",
+        "import": "/api/sburyv1/expenses/import"
+    },
+    "sitelist": {
+        "base": "/api/sburyv1/sitelist/list",
+        "delete": "/api/sburyv1/sitelist/list/delete",
+        "import": "/api/sburyv1/sitelist/import"
+    },
+    "staff": {
+        "base": "/api/sburyv1/staff/list",
+        "delete": "/api/sburyv1/staff/list/delete",
+        "import": "/api/sburyv1/staff/import"
+    },
+    "disbursmentschedule": {
+        "base": "/api/sburyv1/disbursmentschedule/list",
+        "delete": "/api/sburyv1/disbursmentschedule/list/delete",
+        "import": "/api/sburyv1/disbursmentschedule/import"
+    },
+    "contractors": {
+        "base": "/api/sburyv1/contractors/list",
+        "delete": "/api/sburyv1/contractors/list/delete",
+        "import": "/api/sburyv1/contractors/import"
+    },
+    "staffcategories": {
+        "base": "/api/sburyv1/staffcategories/list",
+        "delete": "/api/sburyv1/staffcategories/list/delete",
+        "import": "/api/sburyv1/staffcategories/import"
+    },
+    "userbundlerolefunctions": {
+        "base": "/api/sburyv1/userbundlerolefunctions/list",
+        "delete": "/api/sburyv1/userbundlerolefunctions/list/delete",
+        "import": "/api/sburyv1/userbundlerolefunctions/import"
+    },
+    "workschedule": {
+        "base": "/api/sburyv1/workschedule/list",
+        "delete": "/api/sburyv1/workschedule/list/delete",
+        "import": "/api/sburyv1/workschedule/import"
+    },
+    "attendance": {
+        "base": "/api/sburyv1/attendance/list",
+        "delete": "/api/sburyv1/attendance/list/delete",
+        "import": "/api/sburyv1/attendance/import"
+    },
+    "cashdeposits": {
+        "base": "/api/sburyv1/cashdeposits/list",
+        "delete": "/api/sburyv1/cashdeposits/list/delete",
+        "import": "/api/sburyv1/cashdeposits/import"
+    },
+    "paybilldisbursments": {
+        "base": "/api/sburyv1/paybilldisbursments/list",
+        "delete": "/api/sburyv1/paybilldisbursments/list/delete",
+        "import": "/api/sburyv1/paybilldisbursments/import"
+    },
+    "paymentconfirmations": {
+        "base": "/api/sburyv1/paymentconfirmations/list",
+        "delete": "/api/sburyv1/paymentconfirmations/list/delete",
+        "import": "/api/sburyv1/paymentconfirmations/import"
+    }
+}

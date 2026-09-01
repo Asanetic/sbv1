@@ -1,0 +1,16 @@
+plan_month,income_source_id,expected_customers,average_deal_amount,expected_amt,status,notes
+Aug - 2026,Website Maintenance Retainer,3,5000,15000,planned,Convert 3 existing project clients to retainer
+Aug - 2026,Domain & Hosting Renewal,2,8000,16000,planned,Renewals actually coming due (e.g. Raigwa)
+Aug - 2026,Social Media Marketing (Monthly),1,15000,15000,planned,One new monthly client - realistic not multiple
+Aug - 2026,Octane Orbit Subscription,1,20000,20000,planned,First paying station - still early stage
+Aug - 2026,AssetGuard Subscription,0,12000,0,planned,Not yet selling - pre-launch keep at 0 honestly
+Aug - 2026,Construction PM SaaS,0,15000,0,planned,Still in development not sellable yet
+Aug - 2026,Website Design - Small,2,20000,40000,planned,Fastest-turnaround most repeatable win
+Aug - 2026,Website Design - Medium,1,40000,40000,planned,One is realistic solo - two is a stretch
+Aug - 2026,Website Design - Large,0,70000,0,planned,Target every other month not monthly
+Aug - 2026,Logo & Brand Identity,2,7500,15000,planned,Low-effort add-on easy to bundle
+Aug - 2026,POS Setup & eTIMS Fiscalization,1,30000,30000,planned,Matches deal-size of Thomas-type work
+Aug - 2026,ISP Billing System Build,0,80000,0,planned,Quarterly-scale project not monthly
+Aug - 2026,Custom SaaS/Software Build,0,150000,0,planned,Rare - do not plan on it landing every month
+Aug - 2026,Server Restoration / Emergency Fix,1,25000,25000,planned,Reactive work roughly 1/month historically
+Aug - 2026,Content Studio / Marketing Assets,1,10000,10000,planned,Bundled add-on for existing clients

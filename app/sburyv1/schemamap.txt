@@ -1,0 +1,75 @@
+# schemamap.txt
+# One line per table:
+#   table:displayField|localCol:otherCol:otherTable(Label),localCol:otherCol:otherTable(Label),...
+#
+# - displayField = column on THIS table shown as its label elsewhere.
+# - localCol "record_id" = a child/grid relation (other table points back at this one).
+# - localCol anything else = this table's FK pointing OUT to a parent.
+# - Table with no relations after "|" is still worth a line so OTHER
+#   tables can find its displayField.
+#
+# FK relationships inferred from the supplied schema.
+
+account_urls:url_name|
+
+attendance_list:name|site_id:record_id:site_list(Site)
+
+cash_deposits:posting_remark|posted_by:record_id:system_users(User)
+
+contractors:name|
+
+custom_payments:receiver_name|project_id:project_id:site_list(Project),expense_id:record_id:expenses(Expense),receiver_id:record_id:staff(Staff),signature_id:record_id:system_users(User)
+
+disbursment_schedule:remark|project_id:project_id:site_list(Project)
+
+disbursment_settings:settings_name|
+
+doc_settings:company_name|
+
+expenses:expense_name|site_id:record_id:site_list(Site),subcontracor:record_id:contractors(Contractor),staff:record_id:staff(Staff),admin:record_id:system_users(User)
+
+message_templates:template_name|
+
+messaging:subject|
+
+mosy_sql_roll_back:roll_bk_key|
+
+mosycomms_array:messageid|
+
+mosycomms_settings:company_name|
+
+otp_codes:otp_code|
+
+page_manifest_:page_url|
+
+paybill_disbursments:trx_id|
+
+payment_confirmations:transaction_id|
+
+payment_receivers:receiver_name|schedule_id:record_id:disbursment_schedule(Disbursement Schedule),staff_id:record_id:staff(Staff),expense_id:record_id:expenses(Expense),admin:record_id:system_users(User)
+
+phonebook:name|site_id:record_id:site_list(Site)
+
+project_phases:phase_name|
+
+send_list:send_list_name|site_id:record_id:site_list(Site),contact_id:contact_id:phonebook(Contact)
+
+site_list:site_name|contact_person:record_id:system_users(User)
+
+staff:name|site_id:record_id:site_list(Site),staff_role:record_id:staff_categories(Role / Skill)
+
+staff_categories:work_title|
+
+system_role_bundles:bundle_name|
+
+system_users:name|ref_id:bundle_id:system_role_bundles(Role)
+
+transactions:trx_id|
+
+user_bundle_role_functions:bundle_name|bundle_id:record_id:system_role_bundles(Role Bundle)
+
+user_manifest_:user_name|user_id:user_id:system_users(User),role_id:record_id:system_role_bundles(Role Bundle),site_id:record_id:site_list(Site)
+
+user_site_allocation:user_name|site_id:record_id:site_list(Site),user_id:user_id:system_users(User)
+
+work_schedule:task_description|site_id:record_id:site_list(Site)
