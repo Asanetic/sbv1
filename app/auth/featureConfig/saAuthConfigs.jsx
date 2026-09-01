@@ -17,7 +17,7 @@ const saAuthConfigs = {
   emailCol: "email",
   phoneCol: "tel",
   passwordCol: "login_password",
-  sessionColumns : "user_id,tel,name,email,user_role",
+  sessionColumns : "record_id,tel,name,email,user_role",
 
   // Post-login redirect
   afterSplashPage:`${hiveRoutes.main}/dashboard/main`,
