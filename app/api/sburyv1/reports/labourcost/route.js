@@ -50,6 +50,10 @@ export async function GET(request) {
 
   const { searchParams } = new URL(request.url);
 
+  const rawSiteId = searchParams.get('site_id') || '';
+  const siteId = rawSiteId.replace(/'/g, "\\'");
+  const siteFilterSite = siteId ? `AND w.site_id='${siteId}'` : '';
+
   const currentYear = new Date().getFullYear();
   const rawYear = parseInt(searchParams.get('year'), 10);
   const year = Number.isInteger(rawYear) && rawYear >= 2000 && rawYear <= 2100 ? rawYear : currentYear;
@@ -79,11 +83,17 @@ export async function GET(request) {
     }
   }
 
-  const [yearsAvailable, siteGridRows, taskGridRows, totalRow] = await Promise.all([
+  const [sitesList, yearsAvailable, siteGridRows, taskGridRows, totalRow] = await Promise.all([
+    safeSelect(`
+      SELECT record_id AS id, site_name AS name
+      FROM site_list
+      WHERE ${site('site_list')}
+      ORDER BY site_name
+    `),
     safeSelect(`
       SELECT DISTINCT YEAR(w.date_) AS year
       FROM work_schedule w
-      WHERE ${site('w')} AND w.date_ IS NOT NULL
+      WHERE ${site('w')} ${siteFilterSite} AND w.date_ IS NOT NULL
       ORDER BY year DESC
     `),
     safeSelect(`
@@ -92,7 +102,7 @@ export async function GET(request) {
              COALESCE(SUM(w.subtotal),0) AS value, COUNT(*) AS txn_count
       FROM work_schedule w
       LEFT JOIN site_list sl ON sl.record_id = w.site_id
-      WHERE ${site('w')}
+      WHERE ${site('w')} ${siteFilterSite}
         AND YEAR(w.date_) = ${year} ${monthsFilterSql}
       GROUP BY w.site_id, label, month_num
     `),
@@ -102,14 +112,14 @@ export async function GET(request) {
              MONTH(w.date_) AS month_num,
              COALESCE(SUM(w.subtotal),0) AS value, COUNT(*) AS txn_count
       FROM work_schedule w
-      WHERE ${site('w')}
+      WHERE ${site('w')} ${siteFilterSite}
         AND YEAR(w.date_) = ${year} ${monthsFilterSql}
       GROUP BY task_description, month_num
     `),
     safeSelect(`
       SELECT COALESCE(SUM(w.subtotal),0) AS value, COUNT(*) AS txn_count
       FROM work_schedule w
-      WHERE ${site('w')}
+      WHERE ${site('w')} ${siteFilterSite}
         AND YEAR(w.date_) = ${year} ${monthsFilterSql}
     `),
   ]);
@@ -129,8 +139,9 @@ export async function GET(request) {
   return Response.json({
     status: 'success',
     message: 'Labour cost report ready!',
+    sites_list: sitesList || [],
     years: (yearsAvailable || []).map((r) => Number(r.year)).filter(Boolean),
-    filters: { year, months },
+    filters: { year, months, site_id: siteId },
     month_cols: monthCols,
     sites,
     month_totals: siteMonthTotals,

@@ -13,6 +13,7 @@ const apiRoutes = getApiRoutes();
 const MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
 const EMPTY_DATA = {
+  sites_list: [],
   years: [],
   month_cols: [],
   sites: [],
@@ -23,7 +24,7 @@ const EMPTY_DATA = {
 };
 
 function defaultFilters() {
-  return { year: new Date().getFullYear(), months: [] };
+  return { siteId: '', year: new Date().getFullYear(), months: [] };
 }
 
 export default function LabourCostHolder() {
@@ -33,6 +34,7 @@ export default function LabourCostHolder() {
   const [filters, setFilters] = useState(defaultFilters);
 
   // Draft filter state — only committed to `filters` (and fetched) on Apply.
+  const [draftSiteId, setDraftSiteId] = useState(filters.siteId);
   const [draftYear, setDraftYear] = useState(filters.year);
   const [draftMonths, setDraftMonths] = useState(filters.months);
 
@@ -41,6 +43,7 @@ export default function LabourCostHolder() {
       setLoading(true);
 
       const params = { year: String(filters.year) };
+      if (filters.siteId) params.site_id = filters.siteId;
       if (filters.months.length) params.months = filters.months.join(',');
 
       const response = await mosyGetData({
@@ -50,6 +53,7 @@ export default function LabourCostHolder() {
 
       if (response?.status === 'success') {
         setData({
+          sites_list: response?.sites_list || [],
           years: response?.years || [],
           month_cols: response?.month_cols || [],
           sites: response?.sites || [],
@@ -69,25 +73,32 @@ export default function LabourCostHolder() {
     fetchData();
   }, [filters]);
 
-  const dirty = draftYear !== filters.year || draftMonths.join(',') !== filters.months.join(',');
-  const hasActiveFilters = filters.months.length > 0;
+  const dirty =
+    draftSiteId !== filters.siteId ||
+    draftYear !== filters.year ||
+    draftMonths.join(',') !== filters.months.join(',');
+  const hasActiveFilters = filters.siteId || filters.months.length > 0;
 
   function toggleMonth(m) {
     setDraftMonths((prev) => (prev.includes(m) ? prev.filter((x) => x !== m) : [...prev, m].sort((a, b) => a - b)));
   }
 
   function handleApply() {
-    setFilters({ year: draftYear, months: [...draftMonths] });
+    setFilters({ siteId: draftSiteId, year: draftYear, months: [...draftMonths] });
   }
 
   function handleClear() {
     const defaults = defaultFilters();
+    setDraftSiteId(defaults.siteId);
     setDraftYear(defaults.year);
     setDraftMonths(defaults.months);
     setFilters(defaults);
   }
 
   const yearOptions = [...new Set([defaultFilters().year, ...data.years])].sort((a, b) => b - a);
+  const siteName = filters.siteId
+    ? data.sites_list.find((s) => s.id === filters.siteId)?.name || 'Selected site'
+    : 'All sites';
   const monthsLabel = filters.months.length
     ? filters.months.map((m) => MONTH_NAMES[m - 1]).join(', ')
     : 'All months';
@@ -102,7 +113,7 @@ export default function LabourCostHolder() {
           <h3 className="lcst-title">Labour Cost</h3>
           <div className="lcst-sub">Work schedule cost (work_schedule.subtotal), by site and by task, each combined with month.</div>
           <div className="lcst-viewing">
-            Showing {filters.year} · {monthsLabel}
+            Showing {siteName} · {filters.year} · {monthsLabel}
           </div>
         </div>
 
@@ -112,6 +123,16 @@ export default function LabourCostHolder() {
             <select className="lcst-select" value={draftYear} onChange={(e) => setDraftYear(Number(e.target.value))}>
               {yearOptions.map((y) => (
                 <option key={y} value={y}>{y}</option>
+              ))}
+            </select>
+          </div>
+
+          <div className="filter-field">
+            <label>Site</label>
+            <select className="lcst-select" value={draftSiteId} onChange={(e) => setDraftSiteId(e.target.value)}>
+              <option value="">All sites</option>
+              {data.sites_list.map((s) => (
+                <option key={s.id} value={s.id}>{s.name}</option>
               ))}
             </select>
           </div>
