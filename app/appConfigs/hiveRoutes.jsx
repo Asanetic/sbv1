@@ -6,6 +6,6 @@ export const hiveRoutes = {
   main: '/sburyv1',      // dairy sacco graders portal   relative to your Next.js routes
   imsv2: '/sburyv1', // CRM: clients/deals/revenueplan/messages/callhistory/payments/smartpaymentrequests
   auth: '/auth',
-  home: '/imsv2/dashboard/main',
+  home: '/sburyv1/dashboard/main',
   // add more as needed
 };
